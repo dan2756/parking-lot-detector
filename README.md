@@ -2,19 +2,6 @@
 
 This project uses the **Ultralytics YOLOv8 image classification model** to detect parking lot conditions from images. It was built and trained on a Jetson Nano for real-time edge inference.
 
-## 📁 Project Structure
-
-```
-ParkingLot_Detecter/
-├── dataset/                  # Contains your labeled images (train/val/test)
-├── runs/
-│   └── classify/
-│       ├── train3/          # Training output (best.pt, results.png, etc.)
-│       ├── predict/         # Classification results for new images
-├── scripts/ (optional)      # Any scripts used to preprocess data or run inference
-├── README.md                # This file
-```
-
 ## ✅ Training the Model
 
 To train the model on your dataset:
