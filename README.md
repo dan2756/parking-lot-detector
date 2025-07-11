@@ -2,7 +2,7 @@
 
 # 🚗 Parking Lot Detector (YOLOv8 + Jetson Orin Nano)
 
-This project uses **YOLOv8 image classification** to detect whether a parking space is **empty** or **not empty** based on images. It was trained and run entirely on a **Jetson Nano Super**.
+This project uses **YOLOv8 image classification** to detect whether a parking space is **empty** or **not empty** based on images. It was trained and run entirely on a **Jetson Orin Nano**.
 
 ---
 
