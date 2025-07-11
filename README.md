@@ -37,19 +37,19 @@ ParkingLot_Detecter/
 3. **Validation/Test**
 
    ```bash
-   yolo task=classify mode=val model=runs/classify/train3/weights/best.pt data=dataset
+   yolo task=classify mode=val model=runs/classify/train/weights/best.pt data=dataset
    ```
 
 4. **Prediction on New Images**
 
    ```bash
-   yolo task=classify mode=predict model=runs/classify/train3/weights/best.pt source=/path/to/test/images
+   yolo task=classify mode=predict model=runs/classify/train/weights/best.pt source=/path/to/test/images
    ```
 
 5. **Export the Model (optional)**
 
    ```bash
-   yolo export model=runs/classify/train3/weights/best.pt format=onnx
+   yolo export model=runs/classify/train/weights/best.pt format=onnx
    ```
 
 ---
@@ -68,7 +68,7 @@ ParkingLot_Detecter/
 Training and evaluation results (including `results.png`) are saved in:
 
 ```
-runs/classify/train3/
+runs/classify/train/
 ```
 
 Predictions from new images will show up in:
